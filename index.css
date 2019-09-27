@@ -1,0 +1,62 @@
+body {
+  background-color: #e6e1c5;
+  padding: 20px 20%;
+  font-family: 'Nunito', sans-serif;
+  font-family: 'Mansalva', cursive;-webkit-box-shadow: 20px 10px 168px 57px rgba(0,0,0,0.75);
+-moz-box-shadow: 20px 10px 168px 57px rgba(0,0,0,0.75);
+box-shadow: 20px 10px 168px 57px rgba(0,0,0,0.75);
+}
+
+#nav>a {
+  font-size: 30px;
+  margin: 20px;
+  color: black;
+}
+
+#nav {
+  text-align: center;
+  padding: 30px
+}
+
+#slika {
+  width: 100%;
+  padding: 10px
+}
+
+#mreza {
+  display: grid;
+  grid-template-areas:
+    "nav   nav"
+    "jedro meni";
+  grid-gap: 5px;
+  background-color: white;
+  font-style: oblique;
+  font-size: 12px;
+}
+
+#mreza div {
+  background-color: rgb(242, 100, 100);
+}
+
+#nav {
+  grid-area: nav;
+}
+
+#meni {
+  grid-area: meni;
+
+}
+
+#jedro {
+  grid-area: jedro;
+  padding: 10px 20px;
+  text-align: justify;
+  font-family: 'Nunito', sans-serif;
+  font-family: 'Mansalva', cursive;
+  font-size: 20px;
+}
+
+hr {
+  width: 100%;
+  height: 20px;
+}
